@@ -253,7 +253,7 @@ export default {
       // 添加表单的验证规则对象
       addFormRules: {
         attr_name: [
-          { required: true, message: '请输入参数名称', trigger: blur },
+          { required: true, message: '请输入参数名称', trigger: 'blur' },
         ],
       },
       // 控制修改对话框的显示与隐藏
@@ -265,7 +265,7 @@ export default {
       // 修改表单的验证规则对象
       editFormRules: {
         attr_name: [
-          { required: true, message: '请输入参数名称', trigger: blur },
+          { required: true, message: '请输入参数名称', trigger: 'blur' },
         ],
       },
     };

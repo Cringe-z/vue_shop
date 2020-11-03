@@ -187,7 +187,7 @@ export default {
       // 添加表单的验证规则对象
       addCateFormRules: {
         cat_name: [
-          { required: true, message: '请输入分类名称', trigger: blur },
+          { required: true, message: '请输入分类名称', trigger: 'blur' },
         ],
       },
       // 父级分类的列表
